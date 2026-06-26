@@ -1,0 +1,484 @@
+body
+{
+	background-color: white;
+	font-family:  Arial, sans-serif;
+	font-size: 100%;
+	margin: 0;
+	padding:0;
+} 
+.container
+{
+	
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.lightbox
+{
+	position: relative;
+	margin: 5px;
+}
+a.lightbox
+{
+	display: block;
+	float: left;
+	margin-right: 9px;
+}
+.lightbox div
+{
+	position:absolute;bottom:8px;left:4px;
+
+	padding: 2px;
+}
+.lightbox *
+{
+	color: white;
+	font-size: 15px;
+	
+	text-shadow: 3px 1px black ;
+}
+
+#logo
+{
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 250px;
+	height: 90px;
+	
+}
+#bel, #nag
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width: 100%;
+}
+#bel
+{
+	background-color: #000244;
+	opacity: 0.75;
+	height:100px;
+}
+#beldol
+{
+	background-color: #000244;
+	opacity: 0.75;
+	height:100px;
+}
+
+#menu
+{
+	float: left;
+	margin-top: 25px;
+	margin-left: 5px;
+	color: #ffffff;
+	padding: 5px;
+	height: 50px;
+
+}
+
+#menudol
+{
+	float: left;
+	margin-top: 5px;
+	margin-left: 225px;
+	color: #4e4b1c;
+	padding: 5px;
+	height: 50px;
+
+
+}
+
+
+
+.menu
+{
+	float: left;
+	margin-top: 25px;
+	color: #ffffff;
+	padding: 5px;
+	height: 50px;
+	
+	
+}
+#naglowek
+{
+font-family:Trajan Pro ;
+text-align: center;
+font-size: 18px;
+}
+#naglowek1
+{
+
+font-family:Trajan Pro ;
+text-align: center;
+font-size: 22px;
+}
+
+#naglowek2
+{
+font-family:Trajan Pro ;
+text-align: center;
+font-size: 36px;
+}
+#naglowek3
+{
+font-family:Trajan Pro ;
+
+font-size: 18px;
+}
+
+#naglowek4
+{
+font-family:Trajan Pro ;
+text-align: center;
+font-size: 24px;
+}
+
+
+#topbar
+{
+	height: 100px;
+}
+
+#sidebar
+{
+	float: left;
+	width: 248px;
+	min-height: 1120px;
+	padding:15px;
+
+	text-align: center;
+	font-size: 15px;
+	border-right: 1px solid #666666;
+
+}
+#sidebarC
+{
+	float: left;
+	width: 248px;
+	min-height: 861px;
+	padding:15px;
+	
+	text-align: center;
+	font-size: 15px;
+	border-right: 1px solid #666666;
+
+}
+
+#sidebarS
+{
+	float: left;
+	width: 248px;
+	min-height: 700px;
+	padding:15px;
+
+	text-align: center;
+	font-size: 15px;
+	border-right: 1px solid #666666;
+
+}
+#sidebar1
+{
+	float: left;
+	width: 348px;
+	min-height: 720px;
+	padding:30px;
+
+	text-align: center;
+	font-size: 16px;
+	border-right: 1px solid #666666;
+
+}
+#content
+{
+	
+	font-size: 16px;
+	float: left;
+	padding: 40px;
+	width: 710px;
+	
+	min-height: 680px;
+	text-align: justify;
+}
+#content1
+{	float: left;
+	padding: 40px;
+	width: 610px;
+	
+	min-height: 580px;
+	text-align: justify;
+}
+
+#content2
+{
+	padding: 30px;
+	width:1000px;
+
+	min-height: 690px;
+
+	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#contentSauna
+{
+	padding: 30px;
+	width:990px;
+	min-height: 690px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content2A
+{
+	padding: 20px;
+	width:1000px;
+
+	min-height: 690px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content33
+{
+	padding: 30px;
+	width:1100px;
+font-size: 18px;
+	min-height: 0px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content3
+
+
+{
+	float: left;
+	padding: 40px;
+	width: 610px;
+
+	min-height: 580px;
+	text-align: justify;
+}
+
+#cont1
+{
+	float: left;
+	padding: 5px;
+	width:310px;
+	font-family:Trajan Pro ;
+	font-size: 18px;
+	min-height: 200px;
+	text-align: center;
+}
+#cont2
+{
+float: left;
+	padding: 5px;
+	width:310px;
+	font-family:Trajan Pro ;
+	font-size: 18px;
+
+	min-height: 200px;
+	text-align: center;
+}
+
+#cont3
+{
+float: left;
+	padding: 5px;
+	width:310px;
+	font-family:Trajan Pro ;
+	font-size: 18px;
+
+	min-height: 200px;
+	text-align: center;
+}
+#cont4
+{
+
+clear: both;
+	padding: 1px;
+	width:940px;
+
+	min-height: 300px;
+	text-align: justify;
+}
+#contSauna1
+{
+	float: left;
+	padding: 5px;
+	width:460px;
+	font-family:Trajan Pro ;
+	font-size: 18px;
+	min-height: 200px;
+	text-align: center;
+}
+#contSauna2
+{
+float: left;
+	padding: 5px;
+	width:310px;
+	font-family:Trajan Pro ;
+	font-size: 18px;
+
+	min-height: 200px;
+	text-align: center;
+}
+#contSaunaW
+{
+	float: left;
+	padding: 5px;
+	width:330px;
+	font-family:Trajan Pro ;
+	font-size: 18px;
+	min-height: 100px;
+
+	text-align: left;
+}
+#contentSaunaW1
+{
+
+	padding: 5px;
+	width:410px;
+	font-family:Trajan Pro ;
+	font-size: 18px;
+	min-height: 200px;
+
+	text-align: left;
+}
+#contSauna3
+{
+float: left;
+	padding: 5px;
+	width:950px;
+	font-family:Trajan Pro ;
+	font-size: 18px;
+
+	min-height: 200px;
+	text-align: center;
+}
+#footer1
+{
+
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 2px;
+	font-size: 1px;
+	
+}
+#footer
+{
+	font-family: Arial, sans-serif;
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 1px;
+	font-size: 16px;
+	
+}
+#footer2
+{
+	font-family: Arial, sans-serif;
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 1px;
+	font-size: 12px;
+	
+}
+#slider 
+{
+	height: 414px;
+	xbackground-image: url('slajdy/slajd2.jpg');
+	xbackground-color: black;
+	overflow: hidden;
+}
+
+
+.option
+{
+	float: left;
+	min-width: 50px;
+	height: 14px;
+	font-size: 18px;
+	padding: 10px;
+	color: white;
+	border-right: 1px solid #7E7E96;
+	opacity: 0.8;
+	
+	
+	
+	
+
+}
+.option1
+{
+	float: left;
+	
+	font-size: 20px;
+	opacity: 0.8;
+}
+
+#bez
+{
+border-right: 0px solid #7E7E96;
+}
+.gal_pok div
+{
+	width:  700px;
+	height: 540px;
+	margin: auto;
+}
+
+#koniec1
+{
+width:  240px;
+height: 140px;
+}
+.option:hover
+{
+	cursor: pointer;
+	color:#D8D8D8;
+	
+
+
+}
+#p1,#p4,#p5,#p6,#p7,#p8,#p9,#p10,#p11,#p12,#p13
+{
+float: left;
+width: 124px;
+	height: 90px;
+}
+#po2,#po3,#po4
+{
+float: left;
+width: 200px;
+	height: 300px;
+}
+.bigtitle
+{
+	font-size: 32px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+.midiemtitle
+{
+	font-size: 32px;
+	font-weight: 550;
+	letter-spacing: 2px;
+}
+
+.dottedline
+{
+	height: 5px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #444444;
+}
