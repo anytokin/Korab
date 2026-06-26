@@ -29,8 +29,10 @@ import {
 } from 'lucide-react';
 import './styles.css';
 
+const assetBase = `${import.meta.env.BASE_URL}assets/`;
+
 const asset = (path: string) =>
-  `/assets/${path
+  `${assetBase}${path
     .split('/')
     .map((part) => encodeURIComponent(part))
     .join('/')}`;
