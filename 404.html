@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Nie znaleziono strony | KORAB Jastarnia</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #18313a;
+        background: #f6f2e8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        background: #18313a;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      main {
+        width: min(100%, 720px);
+        padding: clamp(28px, 6vw, 56px);
+        border: 1px solid rgba(255, 255, 255, 0.42);
+        background: rgba(255, 252, 244, 0.92);
+        box-shadow: 0 24px 80px rgba(8, 28, 34, 0.28);
+      }
+
+      img {
+        display: block;
+        width: min(210px, 58vw);
+        height: auto;
+        margin-bottom: 32px;
+      }
+
+      p.code {
+        margin: 0 0 10px;
+        font-size: 0.82rem;
+        font-weight: 800;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #b66b32;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2.25rem, 8vw, 5.6rem);
+        line-height: 0.92;
+        letter-spacing: 0;
+      }
+
+      p {
+        max-width: 54ch;
+        margin: 22px 0 0;
+        font-size: clamp(1rem, 2vw, 1.16rem);
+        line-height: 1.7;
+        color: #3d5960;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 34px;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .button {
+        display: inline-flex;
+        min-height: 48px;
+        align-items: center;
+        justify-content: center;
+        padding: 0 18px;
+        border: 1px solid #18313a;
+        background: #18313a;
+        color: #fff;
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      .button.secondary {
+        background: transparent;
+        color: #18313a;
+      }
+
+      .phone {
+        margin-top: 26px;
+        font-weight: 800;
+      }
+
+      @media (max-width: 560px) {
+        body {
+          padding: 14px;
+        }
+
+        main {
+          padding: 28px;
+        }
+
+        .actions {
+          display: grid;
+        }
+
+        .button {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img id="logo" alt="KORAB Jastarnia" />
+      <p class="code">404</p>
+      <h1>Nie znaleziono strony</h1>
+      <p>
+        Adres jest nieaktualny albo strona została przeniesiona. Wróć na stronę główną
+        Domu Wypoczynkowego KORAB i wybierz aktualną sekcję.
+      </p>
+      <div class="actions">
+        <a class="button" id="home-link" href="/">Strona główna</a>
+        <a class="button secondary" id="contact-link" href="/#kontakt">Kontakt</a>
+      </div>
+      <p class="phone">Rezerwacje: <a href="tel:+48693383117">693 383 117</a></p>
+    </main>
+    <script>
+      const basePath = window.location.pathname.startsWith("/Korab/") ? "/Korab/" : "/";
+      document.body.style.backgroundImage = `linear-gradient(rgba(12, 42, 50, 0.58), rgba(12, 42, 50, 0.35)), url("${basePath}assets/hero/hero-01.jpg")`;
+      document.getElementById("logo").src = `${basePath}assets/brand/logo-korab.png`;
+      document.getElementById("home-link").href = basePath;
+      document.getElementById("contact-link").href = `${basePath}#kontakt`;
+    </script>
+  </body>
+</html>

@@ -8,7 +8,7 @@ await copyFile(path.join(dist, 'index.html'), path.join(root, 'index.html'));
 await rm(path.join(root, 'assets'), { recursive: true, force: true });
 await cp(path.join(dist, 'assets'), path.join(root, 'assets'), { recursive: true });
 
-for (const file of ['.nojekyll']) {
+for (const file of ['.nojekyll', '404.html']) {
   await mkdir(root, { recursive: true });
   await copyFile(path.join(dist, file), path.join(root, file));
 }
