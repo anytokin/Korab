@@ -50,7 +50,7 @@ const navItems = [
   ['pytania', 'Pytania'],
 ] as const;
 
-const heroImages = ['galeria/galeria_1.jpg', 'slajdy/slajd1.jpg', 'slajdy/slajd2.jpg', 'slajdy/slajd3.jpg', 'slajdy/slajd4.jpg', 'slajdy/slajd5.jpg'];
+const heroImages = ['hero/hero-01.jpg', 'hero/hero-02.jpg', 'hero/hero-03.jpg', 'hero/hero-04.jpg', 'hero/hero-05.jpg', 'hero/hero-06.jpg'];
 
 const highlights = [
   { icon: Waves, label: '250 m do morza', text: 'Cicha ulica blisko lasu, plaży i zatoki.' },
@@ -71,7 +71,7 @@ const featureItems = [
 const rooms = [
   {
     group: '2-osobowe',
-    image: 'grafika/p1_0_250.jpg',
+    image: 'rooms/category/two-person.jpg',
     description:
       'Eleganckie pokoje dla par i osób podróżujących solo. Łazienka, TV-SAT, dostęp do kuchni lub aneksu, w wielu pokojach balkon.',
     items: [
@@ -79,98 +79,98 @@ const rooms = [
         nr: '1',
         text:
           'Obszerne łoże z dwoma materacami, możliwość rozdzielenia na dwa łóżka, TV-SAT, balkon od południowego zachodu, łazienka z prysznicem i umywalką, dostęp do kuchni.',
-        images: ['grafika/gal1/pok1_0.jpg', 'grafika/gal1/pok1_1.jpg', 'grafika/gal1/pok1_2.jpg', 'grafika/gal1/pok1_3.jpg'],
+        images: ['rooms/room-01/photo-01.jpg', 'rooms/room-01/photo-02.jpg', 'rooms/room-01/photo-03.jpg', 'rooms/room-01/photo-04.jpg'],
       },
       {
         nr: '4',
         text: 'Obszerne łoże małżeńskie, TV-SAT, łazienka z prysznicem i umywalką, dostęp do aneksu kuchennego lub kuchni.',
-        images: ['grafika/gal4/pok4_0.jpg', 'grafika/gal4/pok4_1.jpg', 'grafika/gal4/pok4_2.jpg', 'grafika/gal4/pok4_3.jpg', 'grafika/gal4/pok4_4.jpg', 'grafika/gal4/pok4_5.jpg'],
+        images: ['rooms/room-04/photo-01.jpg', 'rooms/room-04/photo-02.jpg', 'rooms/room-04/photo-03.jpg', 'rooms/room-04/photo-04.jpg', 'rooms/room-04/photo-05.jpg', 'rooms/room-04/photo-06.jpg'],
       },
       {
         nr: '5',
         text: 'Szerokie dwuosobowe łoże, TV-SAT, balkon od północy, drugie okno od zachodu, łazienka z prysznicem i umywalką, dostęp do aneksu i kuchni.',
-        images: ['grafika/gal5/pok5_0.jpg', 'grafika/gal5/pok5_1.jpg', 'grafika/gal5/pok5_2.jpg', 'grafika/gal5/pok5_3.jpg'],
+        images: ['rooms/room-05/photo-01.jpg', 'rooms/room-05/photo-02.jpg', 'rooms/room-05/photo-03.jpg', 'rooms/room-05/photo-04.jpg'],
       },
       {
         nr: '6',
         text: 'Obszerne łoże dwuosobowe, TV-SAT, balkon od południowego zachodu, łazienka z prysznicem i umywalką, dostęp do aneksu lub kuchni.',
-        images: ['grafika/gal6/pok6_0.jpg', 'grafika/gal6/pok6_1.jpg', 'grafika/gal6/pok6_2.jpg', 'grafika/gal6/pok6_3.jpg', 'grafika/gal6/pok6_4.jpg'],
+        images: ['rooms/room-06/photo-01.jpg', 'rooms/room-06/photo-02.jpg', 'rooms/room-06/photo-03.jpg', 'rooms/room-06/photo-04.jpg', 'rooms/room-06/photo-05.jpg'],
       },
       {
         nr: '7',
         text: 'Dwuosobowe łoże z materacem 140/200 cm, TV-SAT, balkon od południa, łazienka z prysznicem i umywalką, dostęp do aneksu lub kuchni.',
-        images: ['grafika/gal7/pok7_0.jpg', 'grafika/gal7/pok7_1.jpg', 'grafika/gal7/pok7_2.jpg', 'grafika/gal7/pok7_3.jpg', 'grafika/gal7/pok7_4.jpg'],
+        images: ['rooms/room-07/photo-01.jpg', 'rooms/room-07/photo-02.jpg', 'rooms/room-07/photo-03.jpg', 'rooms/room-07/photo-04.jpg', 'rooms/room-07/photo-05.jpg'],
       },
       {
         nr: '8',
         text: 'Łoże dwuosobowe z materacem 140/200 cm, TV-SAT, balkon od południa, łazienka z prysznicem i umywalką, dostęp do aneksu lub kuchni.',
-        images: ['grafika/gal8/pok8_0.jpg', 'grafika/gal8/pok8_1.jpg', 'grafika/gal8/pok8_2.jpg', 'grafika/gal8/pok8_3.jpg', 'grafika/gal8/pok8_4.jpg'],
+        images: ['rooms/room-08/photo-01.jpg', 'rooms/room-08/photo-02.jpg', 'rooms/room-08/photo-03.jpg', 'rooms/room-08/photo-04.jpg', 'rooms/room-08/photo-05.jpg'],
       },
       {
         nr: '9',
         text: 'Obszerne łoże dwuosobowe, TV-SAT, balkon od północy, łazienka z prysznicem i umywalką, możliwość korzystania z aneksu kuchennego.',
-        images: ['grafika/gal9/pok9_0.jpg', 'grafika/gal9/pok9_1.jpg', 'grafika/gal9/pok9_2.jpg', 'grafika/gal9/pok9_3.jpg', 'grafika/gal9/pok9_4.jpg'],
+        images: ['rooms/room-09/photo-01.jpg', 'rooms/room-09/photo-02.jpg', 'rooms/room-09/photo-03.jpg', 'rooms/room-09/photo-04.jpg', 'rooms/room-09/photo-05.jpg'],
       },
       {
         nr: '10',
         text: 'Szerokie łoże dwuosobowe, TV-SAT, balkon od północy, drugie okno od zachodu, łazienka z prysznicem i umywalką, dostęp do aneksu.',
-        images: ['grafika/gal10/pok10_0.jpg', 'grafika/gal10/pok10_1.jpg', 'grafika/gal10/pok10_2.jpg', 'grafika/gal10/pok10_3.jpg', 'grafika/gal10/pok10_4.jpg', 'grafika/gal10/pok10_5.jpg'],
+        images: ['rooms/room-10/photo-01.jpg', 'rooms/room-10/photo-02.jpg', 'rooms/room-10/photo-03.jpg', 'rooms/room-10/photo-04.jpg', 'rooms/room-10/photo-05.jpg', 'rooms/room-10/photo-06.jpg'],
       },
       {
         nr: '11',
         text: 'Łoże dwuosobowe z materacem 140/200 cm, TV-SAT, balkon od południowego zachodu, łazienka z prysznicem i umywalką, dostęp do aneksu.',
-        images: ['grafika/gal11/pok11_0.jpg', 'grafika/gal11/pok11_1.jpg', 'grafika/gal11/pok11_2.jpg', 'grafika/gal11/pok11_3.jpg', 'grafika/gal11/pok11_4.jpg'],
+        images: ['rooms/room-11/photo-01.jpg', 'rooms/room-11/photo-02.jpg', 'rooms/room-11/photo-03.jpg', 'rooms/room-11/photo-04.jpg', 'rooms/room-11/photo-05.jpg'],
       },
       {
         nr: '12',
         text: 'Łoże dwuosobowe z materacem 140/200 cm, TV-SAT, balkon od południa, łazienka z prysznicem i umywalką, dostęp do aneksu.',
-        images: ['grafika/gal12/pok12_0.jpg', 'grafika/gal12/pok12_1.jpg', 'grafika/gal12/pok12_2.jpg', 'grafika/gal12/pok12_3.jpg', 'grafika/gal12/pok12_4.jpg', 'grafika/gal12/pok12_5.jpg'],
+        images: ['rooms/room-12/photo-01.jpg', 'rooms/room-12/photo-02.jpg', 'rooms/room-12/photo-03.jpg', 'rooms/room-12/photo-04.jpg', 'rooms/room-12/photo-05.jpg', 'rooms/room-12/photo-06.jpg'],
       },
       {
         nr: '13',
         text: 'Łoże dwuosobowe z materacem 140/200 cm, TV-SAT, balkon od południa, łazienka z prysznicem i umywalką, dostęp do aneksu.',
-        images: ['grafika/gal13/pok13_0.jpg', 'grafika/gal13/pok13_1.jpg', 'grafika/gal13/pok13_2.jpg', 'grafika/gal13/pok13_3.jpg', 'grafika/gal13/pok13_4.jpg'],
+        images: ['rooms/room-13/photo-01.jpg', 'rooms/room-13/photo-02.jpg', 'rooms/room-13/photo-03.jpg', 'rooms/room-13/photo-04.jpg', 'rooms/room-13/photo-05.jpg'],
       },
     ],
   },
   {
     group: '3-osobowe',
-    image: 'grafika/p15_01.jpg',
+    image: 'rooms/category/three-person.jpg',
     description: 'Pokoje z miejscem dla rodziny lub małej grupy, z łazienką, TV-SAT i dostępem do zaplecza kuchennego.',
     items: [
       {
         nr: '2',
         text:
           'Szerokie łoże małżeńskie 160/200 cm oraz łóżko pojedyncze 90/200 cm, TV-SAT, mały przedpokoik, łazienka z prysznicem i umywalką, balkon od południowego zachodu, dostęp do kuchni.',
-        images: ['grafika/gal2/pok2_0.jpg', 'grafika/gal2/pok2_1.jpg', 'grafika/gal2/pok2_2.jpg', 'grafika/gal2/pok2_3.jpg', 'grafika/gal2/pok2_4.jpg'],
+        images: ['rooms/room-02/photo-01.jpg', 'rooms/room-02/photo-02.jpg', 'rooms/room-02/photo-03.jpg', 'rooms/room-02/photo-04.jpg', 'rooms/room-02/photo-05.jpg'],
       },
       {
         nr: '3',
         text: 'Łoże małżeńskie 140/200 cm oraz dostawka w formie amerykanki, TV-SAT, łazienka z prysznicem i umywalką, balkon od południa, dostęp do kuchni.',
-        images: ['grafika/gal3/pok3_0.jpg', 'grafika/gal3/pok3_1.jpg', 'grafika/gal3/pok3_2.jpg', 'grafika/gal3/pok3_3.jpg', 'grafika/gal3/pok3_4.jpg'],
+        images: ['rooms/room-03/photo-01.jpg', 'rooms/room-03/photo-02.jpg', 'rooms/room-03/photo-03.jpg', 'rooms/room-03/photo-04.jpg', 'rooms/room-03/photo-05.jpg'],
       },
       {
         nr: '15',
         text: 'Niezależne wejście, kanapa i dwa jednoosobowe tapczany, TV-SAT, lodówka, czajnik, kuchenka mikrofalowa, naczynia oraz łazienka z prysznicem i umywalką.',
-        images: ['grafika/gal15/pok15_0.jpg', 'grafika/gal15/pok15_1.jpg', 'grafika/gal15/pok15_2.jpg', 'grafika/gal15/pok15_3.jpg', 'grafika/gal15/pok15_4.jpg'],
+        images: ['rooms/room-15/photo-01.jpg', 'rooms/room-15/photo-02.jpg', 'rooms/room-15/photo-03.jpg', 'rooms/room-15/photo-04.jpg', 'rooms/room-15/photo-05.jpg'],
       },
     ],
   },
   {
     group: '4-osobowe',
-    image: 'grafika/p16_01.jpg',
+    image: 'rooms/category/four-person.jpg',
     description: 'Większe pokoje dla rodzin, także z własnym mini aneksem lub niezależniejszym układem pobytu.',
     items: [
       {
         nr: '14',
         text:
           'Pokój na poddaszu: dwie kanapy, w tym jedna z szezlongiem, dwa pojedyncze łóżka 90/200 cm, TV-SAT, mini aneks kuchenny, wanna i umywalka, dostęp do aneksu.',
-        images: ['grafika/gal14/pok14_0.jpg', 'grafika/gal14/pok14_1.jpg', 'grafika/gal14/pok14_2.jpg', 'grafika/gal14/pok14_3.jpg', 'grafika/gal14/pok14_4.jpg'],
+        images: ['rooms/room-14/photo-01.jpg', 'rooms/room-14/photo-02.jpg', 'rooms/room-14/photo-03.jpg', 'rooms/room-14/photo-04.jpg', 'rooms/room-14/photo-05.jpg'],
       },
       {
         nr: '16',
         text: 'Obszerne dwuosobowe łoże i kanapa, TV-SAT, lodówka, czajnik, kuchenka mikrofalowa, naczynia oraz łazienka z prysznicem i umywalką.',
-        images: ['grafika/gal16/pok16_0.jpg', 'grafika/gal16/pok16_1.jpg', 'grafika/gal16/pok16_3.jpg', 'grafika/gal16/pok16_4.jpg', 'grafika/gal16/pok16_5.jpg', 'grafika/gal16/pok16_6.jpg', 'grafika/gal16/pok16_7.jpg', 'grafika/gal16/pok16_8.jpg'],
+        images: ['rooms/room-16/photo-01.jpg', 'rooms/room-16/photo-02.jpg', 'rooms/room-16/photo-03.jpg', 'rooms/room-16/photo-04.jpg', 'rooms/room-16/photo-05.jpg', 'rooms/room-16/photo-06.jpg', 'rooms/room-16/photo-07.jpg', 'rooms/room-16/photo-08.jpg'],
       },
     ],
   },
@@ -212,37 +212,37 @@ const saunaBenefits = [
 ];
 
 const attractions = [
-  ['LOTY WIDOKOWE', 'grafika/atrakcje/atrakcja_0.jpg'],
-  ['SPORTY WODNE', 'grafika/atrakcje/atrakcja_1.jpg'],
-  ['SKANSEN FORTYFIKACJI', 'grafika/atrakcje/atrakcja_2.jpg'],
-  ['LATARNIA MORSKA', 'grafika/atrakcje/atrakcja_3.jpg'],
-  ['PORT RYBACKI', 'grafika/atrakcje/atrakcja_4.jpg'],
-  ['CHATA RYBACKA', 'grafika/atrakcje/atrakcja_5.jpg'],
-  ['ŚCIEŻKA ROWEROWA', 'grafika/atrakcje/atrakcja_6.jpg'],
-  ['NURKOWANIE', 'grafika/atrakcje/atrakcja_7.jpg'],
-  ['SPORTY WODNE', 'grafika/atrakcje/atrakcja_8.jpg'],
+  ['LOTY WIDOKOWE', 'attractions/attraction-01.jpg'],
+  ['SPORTY WODNE', 'attractions/attraction-02.jpg'],
+  ['SKANSEN FORTYFIKACJI', 'attractions/attraction-03.jpg'],
+  ['LATARNIA MORSKA', 'attractions/attraction-04.jpg'],
+  ['PORT RYBACKI', 'attractions/attraction-05.jpg'],
+  ['CHATA RYBACKA', 'attractions/attraction-06.jpg'],
+  ['ŚCIEŻKA ROWEROWA', 'attractions/attraction-07.jpg'],
+  ['NURKOWANIE', 'attractions/attraction-08.jpg'],
+  ['SPORTY WODNE', 'attractions/attraction-09.jpg'],
 ] as const;
 
 const galleryImages = [
-  'grafika/galeria/galeria_0.jpg',
-  'grafika/galeria/galeria_1.jpg',
-  'grafika/galeria/galeria_2.jpg',
-  'grafika/galeria/galeria_3.jpg',
-  'grafika/galeria/galeria_4.jpg',
-  'grafika/galeria/galeria_5.jpg',
-  'grafika/galeria/galeria_6.jpg',
-  'grafika/galeria/galeria_7.jpg',
-  'grafika/galeria/galeria_8.jpg',
-  'grafika/hol/hol_0.jpg',
-  'grafika/hol/hol_1.jpg',
-  'grafika/hol/hol_2.jpg',
-  'grafika/integracja/integracja_1.jpg',
-  'grafika/kuchnia/kuchnia_0.jpg',
-  'grafika/kuchniaA1/aneks1_0.jpg',
-  'grafika/kuchniaA2/aneks2_1.jpg',
+  'gallery/property-01.jpg',
+  'gallery/property-02.jpg',
+  'gallery/property-03.jpg',
+  'gallery/property-04.jpg',
+  'gallery/property-05.jpg',
+  'gallery/property-06.jpg',
+  'gallery/property-07.jpg',
+  'gallery/property-08.jpg',
+  'gallery/property-09.jpg',
+  'gallery/lobby-01.jpg',
+  'gallery/lobby-02.jpg',
+  'gallery/lobby-03.jpg',
+  'gallery/event-01.jpg',
+  'gallery/kitchen-main-01.jpg',
+  'gallery/kitchen-annex-01.jpg',
+  'gallery/kitchen-annex-02.jpg',
 ];
 
-const childrenImages = Array.from({ length: 15 }, (_, index) => `grafika/galDzieci/dzieci_${index}.jpg`);
+const childrenImages = Array.from({ length: 15 }, (_, index) => `family/kids-${String(index + 1).padStart(2, '0')}.jpg`);
 
 const nearby = [
   ['las', '60 m'],
@@ -338,7 +338,7 @@ function Header() {
   return (
     <header className="site-header">
       <a href="#start" className="brand" aria-label="KORAB Jastarnia">
-        <img src={asset('LogoKorab.png')} alt="KORAB" />
+        <img src={asset('brand/logo-korab.png')} alt="KORAB" />
         <span>Jastarnia</span>
       </a>
       <button className="icon-button menu-toggle" type="button" onClick={() => setMenuOpen((value) => !value)} aria-label="Menu" title="Menu">
@@ -387,7 +387,7 @@ function Hero() {
       <div className="hero-overlay" />
       <div className="hero-content">
         <div className="hero-copy">
-          <img className="hero-logo" src={asset('LogoKorab.png')} alt="KORAB" />
+          <img className="hero-logo" src={asset('brand/logo-korab.png')} alt="KORAB" />
           <p className="eyebrow">Dom Wypoczynkowy w Jastarni</p>
           <h1>KORAB</h1>
           <p className="hero-text">
@@ -421,9 +421,9 @@ function About() {
     <section id="o-nas" className="section about-section">
       <div className="section-inner two-column">
         <div className="photo-stack">
-          <img src={asset('grafika/korabnocS.jpg')} alt="Dom Wypoczynkowy Korab nocą" />
-          <img src={asset('grafika/Okienko.jpg')} alt="Detal Domu Wypoczynkowego Korab" />
-          <img src={asset('grafika/saunaS1.jpg')} alt="Sauna w Korabie" />
+          <img src={asset('property/korab-night.jpg')} alt="Dom Wypoczynkowy Korab nocą" />
+          <img src={asset('property/window-detail.jpg')} alt="Detal Domu Wypoczynkowego Korab" />
+          <img src={asset('sauna/sauna-preview.jpg')} alt="Sauna w Korabie" />
         </div>
         <div className="text-flow">
           <SectionHeading kicker="O nas" title="Naszym szczęściem jest dawać szczęście">
@@ -468,7 +468,7 @@ function Offer() {
               Oprócz regenerujących seansów saunowych można zorganizować rejs pomeranką, wypłynięcie kutrem z możliwością wędkowania lub obserwacji ptaków, masaż oraz usługi kosmetyczne. Gospodarze mieszkają na wspólnej posesji, więc zawsze jest na miejscu osoba dyspozycyjna.
             </p>
           </div>
-          <img src={asset('grafika/Port rybacki .jpg')} alt="Port rybacki w Jastarni" />
+          <img src={asset('property/fishing-port.jpg')} alt="Port rybacki w Jastarni" />
         </div>
       </div>
     </section>
@@ -591,7 +591,7 @@ function Pricing() {
 }
 
 function Sauna({ openLightbox }: { openLightbox: (items: LightboxImage[], selected?: number) => void }) {
-  const saunaImages = ['grafika/sauna/sauna_6.jpg', 'grafika/sauna/sauna_0.jpg', 'grafika/sauna/sauna_1.jpg', 'grafika/sauna/sauna_2.jpg', 'grafika/sauna/sauna_3.jpg', 'grafika/sauna/sauna_s2.jpg', 'grafika/sauna/sauna_S3.jpg'].map((src) => ({
+  const saunaImages = ['sauna/sauna-01.jpg', 'sauna/sauna-02.jpg', 'sauna/sauna-03.jpg', 'sauna/sauna-04.jpg', 'sauna/sauna-05.jpg', 'sauna/sauna-06.jpg', 'sauna/sauna-07.jpg'].map((src) => ({
     src,
     alt: 'Sauna w Korabie',
   }));
@@ -616,7 +616,7 @@ function Sauna({ openLightbox }: { openLightbox: (items: LightboxImage[], select
         </div>
         <div className="sauna-media">
           <button type="button" onClick={() => openLightbox(saunaImages, 0)}>
-            <img src={asset('grafika/sauna/sauna_6.jpg')} alt="Sauna w Korabie" />
+            <img src={asset('sauna/sauna-01.jpg')} alt="Sauna w Korabie" />
           </button>
           <div>
             {saunaImages.slice(1, 4).map((image, index) => (
@@ -701,7 +701,7 @@ function Children({ openLightbox }: { openLightbox: (items: LightboxImage[], sel
           </p>
         </div>
         <div className="children-gallery">
-          {['grafika/PlacZabaw.jpg', 'grafika/placzabaw-19.jpg', 'grafika/dzieci__11.jpg', ...childrenImages.slice(0, 3)].map((image, index) => (
+          {['family/playground-01.jpg', 'family/playground-02.jpg', 'family/playground-03.jpg', ...childrenImages.slice(0, 3)].map((image, index) => (
             <button key={image} type="button" onClick={() => openLightbox(images, Math.min(index, images.length - 1))}>
               <img src={asset(image)} alt="Dla dzieci w Korabie" />
             </button>
@@ -862,7 +862,7 @@ function App() {
       </main>
       <footer className="footer">
         <div>
-          <img src={asset('LogoKorab.png')} alt="KORAB" />
+          <img src={asset('brand/logo-korab.png')} alt="KORAB" />
           <span>Dom Wypoczynkowy KORAB</span>
         </div>
         <p>Wszelkie prawa zastrzeżone.</p>
